@@ -24,14 +24,14 @@ Add `fixed-header` as an attribute to your table:
 
 ```html
 <div class="my-table">
-  <table>
+  <table fixed-header>
   <!-- table markup goes here ... -->
   </table>
 </div>
 ```
 
 Note the wrapper div with the class `demo-table`.  The `fixed-header`
-directive adss wrapper divs around the table, so we need
+directive adds wrapper divs around the table, so we need
 `div.my-table` for our custom CSS below:
 
 Add custom css to control the height of the table and the height of
