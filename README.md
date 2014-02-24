@@ -6,7 +6,7 @@ headers.
 Creating scrollable tables with fixed headers that do not scroll off
 the screen is tricky due to the way tables work in HTML.  We use the
 the techniques described by Miriam Salzer here:
-[Don’t Mess With Tables – Pure CSS Fixed-Header Left-Aligned Tables](http://http://salzerdesign.com/blog/?p=191),
+[Don’t Mess With Tables – Pure CSS Fixed-Header Left-Aligned Tables](http://salzerdesign.com/blog/?p=191),
 and wrap them up in a reusable AngularJS directive.
 
 ## Usage
@@ -64,7 +64,7 @@ div.my-table tr.hidden-header .th-inner {
 
 ## Demo
 
-[fixed-header demo](https://github.com/objectcomputing/FixedHeader/tree/gh-pages/demo/index.html)
+[fixed-header demo](http://objectcomputing.github.io/FixedHeader/demo/index.html)
 
 ## Authors
 
