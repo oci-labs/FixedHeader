@@ -11,16 +11,16 @@ and wrap them up in a reusable AngularJS directive.
 
 ## Usage
 
-1. Add `dist/fixed-header.js' and `dist/fixed-header.css` to your
+Add `dist/fixed-header.js` and `dist/fixed-header.css` to your
 index.html.
 
-2. Add `fixedHeader` as a module dependency on your module:
+Add `fixedHeader` as a module dependency on your module:
 
 ```js
 angular.module('app', ['fixedHeader']);
 ```
 
-3. Add `fixed-header` as an attribute to your table:
+Add `fixed-header` as an attribute to your table:
 
 ```html
 <div class="my-table">
@@ -34,7 +34,7 @@ Note the wrapper div with the class `demo-table`.  The `fixed-header`
 directive adss wrapper divs around the table, so we need
 `div.my-table` for our custom CSS below:
 
-4. Add custom css to control the height of the table and the height of
+Add custom css to control the height of the table and the height of
 the header row:
 
 ```css
