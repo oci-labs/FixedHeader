@@ -16,7 +16,7 @@ module.exports = function (config) {
             'lib/jquery-1.11.0.min.js',
             'lib/angular/angular.js',
             'lib/angular/angular-*.js',
-            'fixed-header.js',
+            'dist/fixed-header.js',
             'test/fixed-header-spec.js'
         ],
 

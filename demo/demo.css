@@ -1,0 +1,21 @@
+div.my-table div.fixed-table-container-inner {
+    /* the maximum height of the table: */
+    max-height: 150px;
+
+    border: 1px solid #aaaaaa;
+    width: 150px;
+}
+
+div.my-table div.th-inner {
+    /* the height of the header row */
+    line-height: 30px;
+}
+
+div.my-table div.fixed-table-container {
+    /* the height of the header row - this needs to match line-height above */
+   padding-top: 30px;
+}
+
+div.my-table tr.hidden-header .th-inner {
+  padding-right: 5px;
+}
