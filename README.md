@@ -64,7 +64,7 @@ div.my-table tr.hidden-header .th-inner {
 
 ## Demo
 
-[fixed-header demo](https://github.com/objectcomputing/FixedHeader/tree/gh-pages/demo/index.html)
+[fixed-header demo](http://objectcomputing.github.io/FixedHeader/demo/index.html)
 
 ## Authors
 
