@@ -14,23 +14,23 @@ and wrap them up in a reusable AngularJS directive.
 Add `dist/fixed-header.js` and `dist/fixed-header.css` to your
 index.html.
 
-Add `fixedHeader` as a module dependency on your module:
+Add `oci.fixedHeader` as a module dependency on your module:
 
 ```js
-angular.module('app', ['fixedHeader']);
+angular.module('app', ['oci.fixedHeader']);
 ```
 
-Add `fixed-header` as an attribute to your table:
+Add `oci.fixed-header` as an attribute to your table:
 
 ```html
 <div class="my-table">
-  <table fixed-header>
+  <table oci.fixed-header>
   <!-- table markup goes here ... -->
   </table>
 </div>
 ```
 
-Note the wrapper div with the class `demo-table`.  The `fixed-header`
+Note the wrapper div with the class `demo-table`.  The `oci.fixed-header`
 directive adds wrapper divs around the table, so we need
 `div.my-table` for our custom CSS below:
 
@@ -64,7 +64,7 @@ div.my-table tr.hidden-header .th-inner {
 
 ## Demo
 
-[fixed-header demo](http://objectcomputing.github.io/FixedHeader/demo/index.html)
+[oci.fixed-header demo](http://objectcomputing.github.io/FixedHeader/demo/index.html)
 
 ## Authors
 

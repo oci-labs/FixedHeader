@@ -1,8 +1,8 @@
 (function () {
     'use strict';
 
-    angular.module('fixedHeader', [])
-        .directive('fixedHeader', function () {
+    angular.module('oci.fixedHeader', [])
+        .directive('oci.fixedHeader', function () {
             return function link(scope, elem) {
                 var header = elem.find('thead').find('tr');
                 angular.forEach(header.find('th'), function (th) {

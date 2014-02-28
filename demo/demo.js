@@ -1,1 +1,1 @@
-angular.module('app', ['fixedHeader']);
+angular.module('app', ['oci.fixedHeader']);

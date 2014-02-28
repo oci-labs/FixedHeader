@@ -2,7 +2,7 @@
     'use strict';
 
     describe('fixed-header directive', function () {
-        beforeEach(module('fixedHeader'));
+        beforeEach(module('oci.fixedHeader'));
 
         var compile;
         var scope;
@@ -14,7 +14,7 @@
 
         it('should render html for fixed header', function () {
             var html =
-                '<div><table fixed-header><thead><tr><th>one</th><th>two</th></tr></thead></table></div>';
+                '<div><table oci.fixed-header><thead><tr><th>one</th><th>two</th></tr></thead></table></div>';
             var elem = angular.element(html);
             compile(elem)(scope);
             scope.$digest();
