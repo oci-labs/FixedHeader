@@ -30,7 +30,7 @@ Add `oci.fixed-header` as an attribute to your table:
 </div>
 ```
 
-Note the wrapper div with the class `demo-table`.  The `oci.fixed-header`
+Note the wrapper div with the class `my-table`.  The `oci.fixed-header`
 directive adds wrapper divs around the table, so we need
 `div.my-table` for our custom CSS below:
 
