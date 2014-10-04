@@ -7,11 +7,50 @@
     <link rel="stylesheet" href="../dist/fixed-header.css">
     <link rel="stylesheet" href="demo.css">
   </head>
-  <body>
+  <body ng-controller="ctrl">
+
     <div class="my-table">
       <table oci.fixed-header>
         <thead>
-          <tr> <th>First</th> <th>Middle</th> <th>Last</th> </tr>
+        <tr>
+            <th>First</th>
+            <th>Middle</th>
+            <th>Last</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+          <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="my-table">
+      <table oci.fixed-header>
+        <thead>
+        <tr>
+            <th ng-repeat="header in headers">
+                <div class="th-inner">
+                    {{header}}
+                </div>
+            </th>
+        </tr>
+        <tr class="hidden-header">
+            <th ng-repeat="header in headers">
+                <div class="th-inner">
+                    {{header}}
+                </div>
+            </th>
+        </tr>
         </thead>
         <tbody>
           <tr> <td>Bob</td> <td>L</td> <td>Smith</td> </tr>

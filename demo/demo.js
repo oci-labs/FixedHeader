@@ -4,4 +4,12 @@
  License: MIT
  */
 
-angular.module('app', ['oci.fixedHeader']);
+(function() {
+    'use strict';
+
+    var app = angular.module('app', ['oci.fixedHeader']);
+
+    app.controller('ctrl', function($scope) {
+        $scope.headers = ['First', 'Middle', 'Last'];
+    });
+})();
