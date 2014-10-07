@@ -1,0 +1,34 @@
+{
+  "name": "oci.FixedHeader",
+  "version": "0.1.0",
+  "homepage": "https://github.com/objectcomputing/FixedHeader",
+  "authors": [
+    "Object Computing Inc."
+  ],
+  "description": "AngularJS Directive and CSS for creating scrollable tables with fixed headers",
+  "main": "dist/fixed-header.js",
+  "keywords": [
+    "Angular",
+    "AngularJS",
+    "angular.js",
+    "table",
+    "header",
+    "fixed",
+    "static"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "lib"
+  ],
+  "dependencies": {
+    "angular": "~1.2.4"
+  },
+    "devDependencies": {
+    "jquery": "~1.11.0",
+    "angular-mocks": "~1.2.4"
+  }
+}
