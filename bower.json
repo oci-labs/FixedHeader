@@ -1,6 +1,6 @@
 {
   "name": "oci.FixedHeader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/objectcomputing/FixedHeader",
   "authors": [
     "Object Computing Inc."
@@ -25,10 +25,10 @@
     "lib"
   ],
   "dependencies": {
-    "angular": "~1.2.4"
+    "angular": "1.2.x"
   },
-    "devDependencies": {
-    "jquery": "~1.11.0",
-    "angular-mocks": "~1.2.4"
+  "devDependencies": {
+    "jquery": "1.11.x",
+    "angular-mocks": "1.2.x"
   }
 }

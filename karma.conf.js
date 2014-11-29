@@ -13,9 +13,9 @@ module.exports = function (config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'lib/jquery-1.11.0.min.js',
-            'lib/angular/angular.js',
-            'lib/angular/angular-*.js',
+            'bower_components/jquery/dist/jquery.js',
+            'bower_components/angular/angular.js',
+            'bower_components/angular-mocks/angular-mocks.js',
             'dist/fixed-header.js',
             'test/fixed-header-spec.js'
         ],

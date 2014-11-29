@@ -66,6 +66,20 @@ div.my-table tr.hidden-header .th-inner {
 
 [oci.fixed-header demo](http://objectcomputing.github.io/FixedHeader/demo/index.html)
 
+## Running Tests
+
+* Install global dependencies
+    `npm install -g karma phantomjs bower`
+
+* Install local dependencies
+    `npm install`
+    
+* Install Bower dependencies
+    `bower install`
+    
+* Run tests
+    `karma start`
+
 ## Authors
 
 - Lance Finney finneyl@ociweb.com
