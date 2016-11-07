@@ -1,5 +1,6 @@
 {
   "name": "fixed-header",
+  "version": "1.0.0",
   "repository": "https://github.com/objectcomputing/FixedHeader",
   "scripts": {
     "test": "./node_modules/.bin/karma start"
